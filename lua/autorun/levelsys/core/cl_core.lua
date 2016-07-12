@@ -20,4 +20,3 @@ surface.CreateFont("deathrun_hud_Small", {
 	size = 14,
 	antialias = true,
 })
-
