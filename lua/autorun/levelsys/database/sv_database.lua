@@ -2,7 +2,7 @@
 When adding/changing ranks in the lvling system you have to go down to the function levelsys.configdatabase.insert and put the ranks in that you 
 want with lvlnum being the level in number form (0 being the rank that people are when they join), name being the ranks text name, lowxp being the
 starting value for the xp, and highxp being the value right before you reach the next rank (Say it takes 1000 xp to get to the 5th rank and and 1500 
-for the 6th rank, for the 5th rank's value you would have lvlnum be 4 {being that it is the tecnical 4th rank, i.e. 0(First Rank), 1(Second Rank), 
+for the 6th rank, for the 5th ranks value you would have lvlnum be 4 {being that it is the tecnical 4th rank, i.e. 0(First Rank), 1(Second Rank), 
 2(Third Rank), 3(Fourth Rank), 4(Fifth Rank),... }, the name be whatever you want, lowxp be 1000, and high xp be 1499.)
 
 To redo the Levelsys ranks if you messed up you would-
