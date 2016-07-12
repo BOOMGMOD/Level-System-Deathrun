@@ -2,13 +2,38 @@
 LevelSysConfig = {}
 
 LevelSysConfig.LevelColorsEnabled = true
-LevelSysConfig.OpenMenuKey = KEY_F6
-LevelSysConfig.hudcolor1 = Color(20,189,158,255)
-LevelSysConfig.hudcolor2 = Color(233,242,249,255)
-LevelSysConfig.hudcolorscrollbar = Color(91,96,100,255)
-LevelSysConfig.hudcolorscrollbar2 = Color(187,194,200,255)
-LevelSysConfig.hudcolorexit = Color(234,74,60,255)
+LevelSysConfig.OpenMenuKey = KEY_F
 LevelSysConfig.LevelCap = 22
+
+LevelSysConfig.Colors = {
+	DeathTeam = HexColor( "#F26C4F" ),
+	RunnerTeam = HexColor( "#3A89C9" ),
+	Clouds = HexColor("#E9F2F9"),
+	Silver = HexColor("#bdc3c7"),
+	Concrete = HexColor("#95a5a6"),
+	Alizarin = HexColor("#e74c3c"),
+	Peter = HexColor("#3498db"),
+	Turq = HexColor("#1abc9c"),
+	DarkBlue = HexColor("#1B325F"),
+	LightBlue = HexColor("#9CC4E4"),
+	Sunflower = HexColor("#f1c40f"),
+	Orange = HexColor("#f39c12"),
+	Text = {
+		DeathTeam = HexColor( "#F26C4F" ),
+		RunnerTeam = HexColor( "#3A89C9" ),
+		Clouds = HexColor("#E9F2F9"),
+		Silver = HexColor("#bdc3c7"),
+		Concrete = HexColor("#95a5a6"),
+		Alizarin = HexColor("#e74c3c"),
+		Peter = HexColor("#3498db"),
+		Turq = HexColor("#1abc9c"),
+		DarkBlue = HexColor("#1B325F"),
+		LightBlue = HexColor("#9CC4E4"),
+		Sunflower = HexColor("#f1c40f"),
+		Orange = HexColor("#f39c12"),
+		Grey3 = HexColor("#303030")
+	}
+}
 
 --Win XP
 LevelSysConfig.WinXP = 150
