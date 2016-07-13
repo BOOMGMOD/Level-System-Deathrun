@@ -2,7 +2,7 @@
 LevelSysConfig = {}
 
 LevelSysConfig.LevelColorsEnabled = true
-LevelSysConfig.OpenMenuKey = KEY_F
+LevelSysConfig.OpenMenuKey = KEY_F5
 LevelSysConfig.LevelCap = 22
 
 LevelSysConfig.Colors = {
